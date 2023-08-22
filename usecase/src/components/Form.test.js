@@ -8,8 +8,6 @@ import { updateField } from '../store/actions';
 const mockStore = configureStore([]);
 
 describe('Form Component', () => {
-  // Previous test
-
   it('updates state correctly when input values change', () => {
     const initialState = {
       firstName: '',
@@ -96,7 +94,4 @@ describe('Form Component', () => {
     expect(screen.getByText('Email is required')).toBeInTheDocument();
     expect(screen.getByText('Message is required')).toBeInTheDocument();
   });
-
-
-  // Add more tests for other scenarios, e.g., valid submission, success message, etc.
 });
