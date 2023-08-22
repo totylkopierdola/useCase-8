@@ -1,0 +1,89 @@
+.form-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: rgb(245, 235, 243);
+  padding: 20px 20px 40px 20px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  gap: 2px;
+}
+
+.form-container form input, .form-container form textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 4px 8px;
+  outline: none;
+  resize: none;
+}
+
+.form-container .form-item {
+  padding-bottom: 14px;
+
+}
+
+.form-container .error {
+  position: absolute;
+  color: red;
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.form-container .success-message {
+  position: absolute;
+  bottom: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.form-container .success {
+  color: green;
+  font-weight: bold;
+
+}
+
+ button {
+  padding: 12px 30px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.value-list h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.value-list li {
+  font-size: 14px;
+}
+
+.value-list {
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(151, 151, 151);
+  text-align: left;
+}
+
+.value-list .bold {
+  font-weight: bold;
+}
